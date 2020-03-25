@@ -1,0 +1,352 @@
+{
+    "id": "3a239f4d-cc48-4dd6-8823-b95d05dd217f",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "8f0c9475-e257-4cca-aab5-cf863cd0c852",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "e46fa547-71fb-4ecf-a0fa-67b9a9f29bc0",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "0862e796-b43e-4c59-b7c4-373a3cf8b086",
+            "Value": {
+                "id": "909e9310-b664-4ef5-8220-c462da2d21ca",
+                "resourcePath": "views\\0862e796-b43e-4c59-b7c4-373a3cf8b086.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0cf18ab5-1740-42a0-ab9a-9a121d8ad07d",
+            "Value": {
+                "id": "794fe14a-9073-45fa-9daa-055e8d608d9f",
+                "resourcePath": "datafiles_yy\\Google Play Billing Manual.pdf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "107e84c7-954d-4427-a3fd-33b031d1bb54",
+            "Value": {
+                "id": "8548671a-5483-4b11-aec7-9a984f8cb96f",
+                "resourcePath": "views\\107e84c7-954d-4427-a3fd-33b031d1bb54.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "146110f5-d087-4e1a-b948-870e32dc99c1",
+            "Value": {
+                "id": "e07163d2-24f4-4032-aa85-a5c0b5dc9c85",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "20965a9a-e49b-4a4b-bf2d-8dfd40b3ae56",
+            "Value": {
+                "id": "6e6baa04-a992-4035-b8a9-cdcb01dc44ed",
+                "resourcePath": "sprites\\sStatic\\sStatic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "348cf4cc-6349-48cd-bec6-109c90612c5f",
+            "Value": {
+                "id": "f03fc4b2-27fb-4edf-b28d-54480ff3beb9",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "35f647d6-dbc4-4d5d-a560-29c62c1b1692",
+            "Value": {
+                "id": "88d88dda-a920-438d-8508-3d32f8a2481a",
+                "resourcePath": "extensions\\GooglePlayBillingExtension\\GooglePlayBillingExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "3bdf21a2-0a19-4fb2-aee8-5510c503577e",
+            "Value": {
+                "id": "7d2a9fc9-dc46-488e-820b-a2a4b90f64cc",
+                "resourcePath": "datafiles_yy\\Google Services Manual.pdf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "43b15c78-4c9f-461b-9cc1-964815c93105",
+            "Value": {
+                "id": "f74c1897-c21a-4c25-a1a7-716ec75670b5",
+                "resourcePath": "datafiles_yy\\Google Mobile Ads Manual.pdf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "57d0cb12-55d9-466d-b6ef-9aa640ce0a82",
+            "Value": {
+                "id": "351981e3-ece0-472d-80ea-be344f6abf89",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5e640a42-ca6b-4441-a13d-f0da40ac9655",
+            "Value": {
+                "id": "1c296095-fde6-4f1d-8d98-00ec22dbccc7",
+                "resourcePath": "extensions\\GooglePlayLicensingExtension\\GooglePlayLicensingExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "62ba03c9-915c-4986-b055-b04f5477a433",
+            "Value": {
+                "id": "5d76789d-b73a-4821-af14-944df9e2f525",
+                "resourcePath": "views\\62ba03c9-915c-4986-b055-b04f5477a433.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "70c651bd-b4cd-4a34-80b7-0b6067cbd7ee",
+            "Value": {
+                "id": "c580503a-b96c-45e0-b9bc-a14dfcb9c67d",
+                "resourcePath": "scripts\\macros\\macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7fe6985d-1920-4984-85a9-03900a57fb54",
+            "Value": {
+                "id": "6956fe55-f853-4c0d-9a79-84e979cd677b",
+                "resourcePath": "views\\7fe6985d-1920-4984-85a9-03900a57fb54.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "0a1bc1ff-3625-4de3-acca-d2fdae2b75f3",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8722557c-c219-4291-85ce-ab9e5ee4b64e",
+            "Value": {
+                "id": "1f2260c4-78b8-46ea-8337-7640b6bf7be3",
+                "resourcePath": "views\\8722557c-c219-4291-85ce-ab9e5ee4b64e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8ec45ab3-342f-4b59-b8d8-44eb3f1b6d6d",
+            "Value": {
+                "id": "de8da148-8e38-4ac1-ac2e-2f3eb8a1edde",
+                "resourcePath": "views\\8ec45ab3-342f-4b59-b8d8-44eb3f1b6d6d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "759c9010-e6d0-45ad-8523-24b08030b633",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "98fd3577-ddd5-4d4c-aeb0-7daa45132c63",
+            "Value": {
+                "id": "cdd4eb91-ece7-4889-a929-faa0ed95c62c",
+                "resourcePath": "views\\98fd3577-ddd5-4d4c-aeb0-7daa45132c63.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b717f89-de00-4950-bb3e-1f635649e6dc",
+            "Value": {
+                "id": "32600fd9-ea57-4dc2-a5ca-0f675a1803ce",
+                "resourcePath": "views\\9b717f89-de00-4950-bb3e-1f635649e6dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0257460-1dd3-4986-9ffe-13940c346487",
+            "Value": {
+                "id": "932ebcb1-2ebb-4270-bf89-6a7466ae8fa5",
+                "resourcePath": "views\\a0257460-1dd3-4986-9ffe-13940c346487.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "2bdf1ae9-6e3f-4364-a87b-bc9a9f99505a",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a3831090-49da-4e06-bb24-2a88b375f2bf",
+            "Value": {
+                "id": "75e21fb6-d9ac-43e6-9598-99c00be16b59",
+                "resourcePath": "extensions\\GooglePlayAPKExpansionExtension\\GooglePlayAPKExpansionExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "3ca3d676-dc95-4430-9d11-414960bf97e5",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b692918b-a2eb-41d7-ad06-08871dc1c32f",
+            "Value": {
+                "id": "5bb85fba-72ce-473a-b7f5-ba64f6264e02",
+                "resourcePath": "extensions\\GooglePlayServicesExtension\\GooglePlayServicesExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "b692918b-a2eb-41d7-ad77-08871dc1ffff",
+            "Value": {
+                "id": "f9f6a8f4-c1fc-448d-a7c9-89846eddd2d4",
+                "resourcePath": "extensions\\GooglePlayAdsExtension\\GooglePlayAdsExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "c34b9bd6-5578-41e6-a542-d33494c58d8c",
+            "Value": {
+                "id": "406ec830-547e-4e91-9911-0b48a7e0069e",
+                "resourcePath": "objects\\oRender\\oRender.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "02493b21-19dd-4e00-bc95-5496f9dcc574",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d48de051-0ab3-4fdd-a52d-7641928aeaa9",
+            "Value": {
+                "id": "010fdc01-9577-4a65-a19e-34c2e72e6445",
+                "resourcePath": "views\\d48de051-0ab3-4fdd-a52d-7641928aeaa9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6bb079b-b845-49ff-9937-bfbc0facaf38",
+            "Value": {
+                "id": "ca1a2380-70ff-4caa-8a4c-d49db2ec18c2",
+                "resourcePath": "scripts\\TileToScreenY\\TileToScreenY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d7fccb99-8931-41ab-b7a3-e158de4bcbcd",
+            "Value": {
+                "id": "53d3db64-cbc4-4dd0-bfe5-8c6559185622",
+                "resourcePath": "scripts\\TileToScreenX\\TileToScreenX.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d8409197-5c5d-4950-a80f-f7c4584a4510",
+            "Value": {
+                "id": "9e4cbb1f-fe3b-4e91-b24d-1bc90f413cbc",
+                "resourcePath": "views\\d8409197-5c5d-4950-a80f-f7c4584a4510.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d86227c2-676c-4a31-953f-86b555646d40",
+            "Value": {
+                "id": "de94f2d4-ebbc-4d89-bef9-a4a961f33c3d",
+                "resourcePath": "views\\d86227c2-676c-4a31-953f-86b555646d40.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d98f85f3-8873-4545-926e-73f4584bdecd",
+            "Value": {
+                "id": "92e7b212-44b4-4c28-93a0-9cfbbcdb27c2",
+                "resourcePath": "views\\d98f85f3-8873-4545-926e-73f4584bdecd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "e6f9a6a9-07d9-4f19-9ef5-86602da5ba8c",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "eeedbe95-a533-4544-9360-e502a1c0cb9e",
+            "Value": {
+                "id": "42975adc-bc0c-4243-93d0-55bfd1748b51",
+                "resourcePath": "views\\eeedbe95-a533-4544-9360-e502a1c0cb9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "5fd1e10c-7291-46b9-bfaf-512b8094be4f",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8418d78-c60f-44f5-89c0-0f5ad669330f",
+            "Value": {
+                "id": "d3550967-ad6b-455a-991b-305b3ffb22c9",
+                "resourcePath": "views\\f8418d78-c60f-44f5-89c0-0f5ad669330f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fde1431a-d152-43da-9585-ebda2f574125",
+            "Value": {
+                "id": "853b35e4-446c-4912-bba0-055598e97533",
+                "resourcePath": "views\\fde1431a-d152-43da-9585-ebda2f574125.yy",
+                "resourceType": "GMFolder"
+            }
+        }
+    ],
+    "script_order": [
+        "70c651bd-b4cd-4a34-80b7-0b6067cbd7ee",
+        "d7fccb99-8931-41ab-b7a3-e158de4bcbcd",
+        "d6bb079b-b845-49ff-9937-bfbc0facaf38"
+    ],
+    "tutorial": ""
+}
