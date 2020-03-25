@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "348cf4cc-6349-48cd-bec6-109c90612c5f",
-            "Value": {
-                "id": "f03fc4b2-27fb-4edf-b28d-54480ff3beb9",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "35f647d6-dbc4-4d5d-a560-29c62c1b1692",
             "Value": {
                 "id": "88d88dda-a920-438d-8508-3d32f8a2481a",
@@ -100,6 +92,14 @@
                 "id": "f74c1897-c21a-4c25-a1a7-716ec75670b5",
                 "resourcePath": "datafiles_yy\\Google Mobile Ads Manual.pdf.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4c539342-51e8-4890-9150-40a26111dc47",
+            "Value": {
+                "id": "be7be3e2-7cb1-46b7-8573-c0896ec16bad",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -252,6 +252,14 @@
                 "id": "02493b21-19dd-4e00-bc95-5496f9dcc574",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d30de93e-a919-490e-8a47-d444bea4c419",
+            "Value": {
+                "id": "ca1d233a-d95f-442f-91ea-d15468a751ff",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
