@@ -13,7 +13,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
-		if (ScreenToTileX(mouse_x, mouse_y)==tX) && ((ScreenToTileY(mouse_x,mouse_y)== tY) )
+		if (ScreenToTileX(player.x, player.y)==tX) && ((ScreenToTileY(player.x,player.y)== tY) )
 		{
 			tileIndex = 2;
 			tileZ += 2;
