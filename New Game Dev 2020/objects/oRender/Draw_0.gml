@@ -27,9 +27,13 @@ for (var tX = 0; tX < MAP_W; tX++)
 			} 
 				if (tileIndex = 0)
 				{
+					  /// moves player out of view so it can reset
+							player.depth = 250
+					
+					
 					/// creates falling player at point of failure
 					instance_create_layer(player.x,player.y,"Instances",playerFalling);
-					
+				 
 					
 					
 				}
