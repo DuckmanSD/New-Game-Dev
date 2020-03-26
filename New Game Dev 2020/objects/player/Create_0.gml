@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Setting up player constants for now.  Spd is player speed 
 spd=1
 image_speed=.4;

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "40f82f00-efa7-4992-9907-ade01dd273a5",
+            "Value": {
+                "id": "99f6f0c6-4698-4e9d-8db2-d3faed89821c",
+                "resourcePath": "objects\\playerFalling\\playerFalling.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43b15c78-4c9f-461b-9cc1-964815c93105",
             "Value": {
                 "id": "f74c1897-c21a-4c25-a1a7-716ec75670b5",
@@ -252,6 +260,14 @@
                 "id": "3ca3d676-dc95-4430-9d11-414960bf97e5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b4aa7a1e-8d3a-42d3-ac42-3db81ac105a5",
+            "Value": {
+                "id": "2b9bd6c1-c5e4-4a02-8e73-779b61b66ced",
+                "resourcePath": "sprites\\blank\\blank.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -16,7 +16,7 @@ if(hInput != 0 or vInput != 0)
 		x += hInput * spd;
 		y += vInput * spd;
 		
-		//set sprite
+		//set sprite in 8 directions
 		switch(dir)
 			{
 				case 0: sprite_index = playerRight; break;
@@ -29,9 +29,13 @@ if(hInput != 0 or vInput != 0)
 				case 315: sprite_index = playerDownRight; break;
 				
 			}
-			
 		
-	} else {
+	}
+	
+		// stops constant walking
+	
+	else 
+	{
 		image_index =0;
 	}
 	

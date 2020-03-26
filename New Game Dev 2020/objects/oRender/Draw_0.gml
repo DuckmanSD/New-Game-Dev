@@ -24,7 +24,22 @@ for (var tX = 0; tX < MAP_W; tX++)
 				// Sets a lower dirt block to represent a step
 				tileIndex = 2;
 				tileZ += 3;
-			}
+			} 
+				if (tileIndex = 0)
+				{
+					/// creates falling player at point of failure
+					instance_create_layer(player.x,player.y,"Instances",playerFalling);
+					
+					
+					
+				}
+			
+			
+			
+			
+			
+			
+			
 		}
 		
 		/// Draws the map
