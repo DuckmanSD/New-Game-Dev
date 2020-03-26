@@ -13,14 +13,21 @@ for (var tX = 0; tX < MAP_W; tX++)
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
+		/// Checks player position to grid
 		if (ScreenToTileX(player.x, player.y)==tX) && ((ScreenToTileY(player.x,player.y)== tY) )
 		{
-			tileIndex = 2;
-			tileZ += 2;
-		
+			
+			// Checks to see if you are on the map
+			
+			if (tileIndex = !0)
+			{
+				// Sets a lower dirt block to represent a step
+				tileIndex = 2;
+				tileZ += 3;
+			}
 		}
 		
-		
+		/// Draws the map
 		if (tileIndex != 0) draw_sprite(sStatic, tileIndex-1, screenX, screenY + tileZ);
 		
 	}
