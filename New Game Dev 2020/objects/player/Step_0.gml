@@ -1,7 +1,7 @@
 //keyboard input
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-jump = keyboard_check(vk_space);
+shoot = keyboard_check(vk_space);
 
 //read input
 if(hInput != 0 or vInput != 0)
@@ -16,10 +16,7 @@ if(hInput != 0 or vInput != 0)
 		x += hInput * spd;
 		y += vInput * spd;
 		
-		if jump
-			{
-				
-			}
+		
 		//set sprite in 8 directions
 		switch(dir)
 			{
@@ -44,4 +41,18 @@ if(hInput != 0 or vInput != 0)
 		// stops constant walking
 		image_index =0;
 	}
+	
+	fireDirection=point_direction(x,y,mouse_x,mouse_y)
+	image_angle=direction
+	
+	if mouse_check_button_pressed(mb_left)
+	{
+    var newbullet=instance_create_layer(x,y,"Instances",playerBullet);
+    newbullet.direction=fireDirection
+    newbullet.image_angle=fireDirection
+    newbullet.speed=7 //adjust 7 accordingly
+   
+    }
+
+	
 	
