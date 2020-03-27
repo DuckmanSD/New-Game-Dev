@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "17955cd6-cfff-40a1-930b-864a14b52163",
+            "Value": {
+                "id": "4e3e0d40-d5a6-4f77-9f47-3f032a6ec040",
+                "resourcePath": "sprites\\pfall\\pfall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ef20690-07af-4260-b7dc-d663c32bd82c",
             "Value": {
                 "id": "41cd40f7-3a78-4d6f-811d-ec37df9e1bae",

@@ -19,12 +19,12 @@ for (var tX = 0; tX < MAP_W; tX++)
 			
 			// Checks to see if you are on the map
 			
-			if (tileIndex = !0)
-			{
+			//if (tileIndex = !0)
+			//{
 				// Sets a lower dirt block to represent a step
-				tileIndex = 2;
-				tileZ += 3;
-			} 
+				//tileIndex = 2;
+				//tileZ += 3;
+			//} 
 				if (tileIndex = 0)
 				{
 					  /// moves player out of view so it can reset
