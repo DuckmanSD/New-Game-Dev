@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1592b2f1-7e46-4aa7-8b0b-34b9dc5ba988",
+            "Value": {
+                "id": "2df80109-ac16-4fab-a73f-e8be0aec6dec",
+                "resourcePath": "sprites\\pShadow\\pShadow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ef20690-07af-4260-b7dc-d663c32bd82c",
             "Value": {
                 "id": "41cd40f7-3a78-4d6f-811d-ec37df9e1bae",
@@ -156,6 +164,14 @@
                 "id": "5d76789d-b73a-4821-af14-944df9e2f525",
                 "resourcePath": "views\\62ba03c9-915c-4986-b055-b04f5477a433.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e586b5f-3896-4cdb-90a7-3b2d03ef6ce0",
+            "Value": {
+                "id": "877647c1-d819-4430-9125-fa9755c0a960",
+                "resourcePath": "objects\\playerShadow\\playerShadow.yy",
+                "resourceType": "GMObject"
             }
         },
         {

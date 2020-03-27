@@ -1,9 +1,9 @@
 //keyboard input
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+jump = keyboard_check(vk_space);
 
-
-
+//read input
 if(hInput != 0 or vInput != 0)
 	{
 		//find direction and find vector to correct point 
@@ -16,6 +16,10 @@ if(hInput != 0 or vInput != 0)
 		x += hInput * spd;
 		y += vInput * spd;
 		
+		if jump
+			{
+				
+			}
 		//set sprite in 8 directions
 		switch(dir)
 			{
@@ -30,12 +34,14 @@ if(hInput != 0 or vInput != 0)
 				
 			}
 		
+		
 	}
 	
-		// stops constant walking
+		
 	
 	else 
 	{
+		// stops constant walking
 		image_index =0;
 	}
 	
