@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "64f38db8-a63a-4768-a5ea-8157d6b8a99b",
+            "Value": {
+                "id": "bcf6d56a-d545-4224-b2db-862ad39a8f5e",
+                "resourcePath": "objects\\still_test\\still_test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e586b5f-3896-4cdb-90a7-3b2d03ef6ce0",
             "Value": {
                 "id": "877647c1-d819-4430-9125-fa9755c0a960",
@@ -204,6 +212,14 @@
                 "id": "c5a0ebf2-a9e9-4e86-9230-e7d8333c3320",
                 "resourcePath": "sprites\\playerDownRight\\playerDownRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77b32770-6ec9-4a20-b2a7-69dc63ba1285",
+            "Value": {
+                "id": "8f106ce4-a494-46b8-85c4-11e3ddf737c0",
+                "resourcePath": "objects\\oDraw_Depth\\oDraw_Depth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -332,6 +348,14 @@
                 "id": "74d177c5-94a3-42b1-800a-199127b05bcd",
                 "resourcePath": "scripts\\ScreenToTileX\\ScreenToTileX.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bfd2d913-4b77-49b2-a503-03fbe5d6e23d",
+            "Value": {
+                "id": "afb92e58-1041-49ed-8de2-9ad2c6bce201",
+                "resourcePath": "objects\\oDepth\\oDepth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
