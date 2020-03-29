@@ -1,10 +1,32 @@
 //keyboard input
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
-shoot = keyboard_check(vk_space);
-zoomin = keyboard_check(vk_numpad1);
-zoomout = keyboard_check(vk_numpad2);
+input_left			= keyboard_check(vk_left);
+input_right			= keyboard_check(vk_right);
+input_up			= keyboard_check(vk_up);
+input_down			= keyboard_check(vk_down);
+input_jump			= keyboard_check(vk_space);
+input_jump_hold		= keyboard_check_pressed(vk_space);
+shoot = keyboard_check(vk_control);
 
+
+
+//JUMP
+if(z >0) 
+	{
+	moveZ -= grav;
+	z += moveZ;
+	//if(moveZ > 0 and !input_jump_hold) moveZ =0;
+	}else 
+		{
+			z = 0;
+			if(input_jump)
+				{	
+					moveZ= jSpd;
+					z = moveZ;
+				}
+				else moveZ = 0 ;
+		}
 //read input
 if(hInput != 0 or vInput != 0)
 	{
@@ -12,11 +34,17 @@ if(hInput != 0 or vInput != 0)
 		dir = point_direction(0,0,hInput, vInput);
 		moveX = lengthdir_x(spd, dir);
 		moveY = lengthdir_y(spd, dir);
+		
 
+   ///movement code with jump
+		moveX = input_right - input_left;
+		moveY = input_down -  input_up;
+		x += moveX;
+		y += moveY - moveZ;
 
 		//actually move
-		x += hInput * spd;
-		y += vInput * spd;
+		//x += hInput * spd;
+		//y += vInput * spd;
 		
 		
 		//set sprite in 8 directions
