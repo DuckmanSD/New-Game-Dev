@@ -5,16 +5,6 @@
     "name": "playerShadow",
     "eventList": [
         {
-            "id": "dfa42f1f-7917-4b92-b11c-d4ce59629496",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "6e586b5f-3896-4cdb-90a7-3b2d03ef6ce0"
-        },
-        {
             "id": "e8d688c0-d5ea-4501-8e81-af71297c2f9e",
             "modelName": "GMEvent",
             "mvc": "1.0",

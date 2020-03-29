@@ -3,7 +3,7 @@ event_inherited();
 grav = .6;
 spd=1
 image_speed=.4;
-//instance_create_layer(player.x,player.y,"Instances", playerShadow);
+player.isJumping = false;
 moveZ = 0;
 moveX = 0;
 moveY = 0;

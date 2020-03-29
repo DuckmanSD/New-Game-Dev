@@ -25,7 +25,8 @@ for (var tX = 0; tX < MAP_W; tX++)
 				//tileIndex = 2;
 				//tileZ += 3;
 			//} 
-				if (tileIndex = 0)
+			
+				if (tileIndex = 0) 
 				{
 					  /// moves player out of view so it can reset
 							player.depth = 250

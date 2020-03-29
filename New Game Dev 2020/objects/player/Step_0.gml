@@ -9,7 +9,12 @@ input_jump			= keyboard_check(vk_space);
 input_jump_hold		= keyboard_check_pressed(vk_space);
 shoot = keyboard_check(vk_control);
 
-
+if player.z > 0
+{
+	isJumping = true;
+}else{
+	isJumping = false;
+}
 //JUMP
 if(z >0) 
 	{
@@ -20,13 +25,18 @@ if(z >0)
 		{
 			z = 0;
 			if(input_jump)
+			
 				{	
+					//player.isJumping = true;
 					moveZ= jSpd;
 					z = moveZ;
 				}
-				else moveZ = 0 ;
+				
+				else moveZ = 0;
+				
 		}
 		
+		//player.isJumping = false;
 	  ///movement code with jump
 		moveX = input_right - input_left;
 		moveY = input_down -  input_up;
