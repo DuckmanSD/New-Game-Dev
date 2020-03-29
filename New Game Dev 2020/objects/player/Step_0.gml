@@ -27,6 +27,12 @@ if(z >0)
 				}
 				else moveZ = 0 ;
 		}
+		
+	  ///movement code with jump
+		moveX = input_right - input_left;
+		moveY = input_down -  input_up;
+		x += moveX;
+		y += moveY - moveZ;	
 //read input
 if(hInput != 0 or vInput != 0)
 	{
@@ -36,11 +42,7 @@ if(hInput != 0 or vInput != 0)
 		moveY = lengthdir_y(spd, dir);
 		
 
-   ///movement code with jump
-		moveX = input_right - input_left;
-		moveY = input_down -  input_up;
-		x += moveX;
-		y += moveY - moveZ;
+ 
 
 		//actually move
 		//x += hInput * spd;
