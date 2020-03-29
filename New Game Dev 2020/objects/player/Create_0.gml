@@ -9,7 +9,3 @@ moveX = 0;
 moveY = 0;
 jSpd = 3;
 z=0;
-camera_initialise(0, 1024, 600, 1024, 600);
-//camera_setposition(512, 384);
-camera_center();
-camera_lock(0, player);

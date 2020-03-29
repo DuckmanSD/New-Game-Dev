@@ -9,12 +9,6 @@ input_jump			= keyboard_check(vk_space);
 input_jump_hold		= keyboard_check_pressed(vk_space);
 shoot = keyboard_check(vk_control);
 
-  if (keyboard_check(vk_numpad1)) {
-       camera_zoom(0, view_wview[0] - 1, 1, 512, 1024);
-  }
-  if (keyboard_check(vk_numpad2)) {
-       camera_zoom(0, view_wview[0] + 1, 1, 512, 1024);
-  }
 
 //JUMP
 if(z >0) 

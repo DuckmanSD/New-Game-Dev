@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "ccaae707-54cd-4012-ad74-7803f19c4b15",
+            "Value": {
+                "id": "1184f530-6ff7-4a9b-aee9-7e856165739a",
+                "resourcePath": "objects\\oCameraControl\\oCameraControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cd99cc77-bac3-4492-b6e3-f18cd7314b78",
             "Value": {
                 "id": "91f45e39-568a-46ae-9a3f-ec86a12f8384",
