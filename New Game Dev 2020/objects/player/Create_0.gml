@@ -7,5 +7,5 @@ image_speed=.4;
 moveZ = 0;
 moveX = 0;
 moveY = 0;
-jSpd = 10;
+jSpd = 3;
 z=0;
