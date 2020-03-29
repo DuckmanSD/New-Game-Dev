@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 playerFalling.y++
+playerShadow.depth =200;
 
 if (playerFalling.y > 768)
 	{
@@ -14,3 +15,4 @@ if (playerFalling.y > 768)
 		
 	}
 	
+playerShadow.depth = -90

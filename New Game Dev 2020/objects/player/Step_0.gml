@@ -2,6 +2,8 @@
 hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
 vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
 shoot = keyboard_check(vk_space);
+zoomin = keyboard_check(vk_numpad1);
+zoomout = keyboard_check(vk_numpad2);
 
 //read input
 if(hInput != 0 or vInput != 0)
