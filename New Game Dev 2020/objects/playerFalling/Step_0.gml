@@ -1,8 +1,8 @@
 //ghost player object and throw this dummy down!
-playerFalling.y++;
-playerFalling.y++;
+playerFalling.y=y+10;
 
-if (playerFalling.y > room_height)
+
+if (playerFalling.y > 1000)
 	{
 		instance_destroy(playerFalling);
 		player.x = 353;

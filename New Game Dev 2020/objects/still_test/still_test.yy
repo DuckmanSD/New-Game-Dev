@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "still_test",
     "eventList": [
-        {
-            "id": "d9f93f78-02c0-4b48-9d67-4064b80327df",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "64f38db8-a63a-4768-a5ea-8157d6b8a99b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
