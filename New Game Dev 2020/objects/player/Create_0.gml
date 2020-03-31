@@ -7,5 +7,5 @@ player.isJumping = false;
 moveZ = 0;
 moveX = 0;
 moveY = 0;
-jSpd = 3;
+jSpd = 4;
 z=0;
