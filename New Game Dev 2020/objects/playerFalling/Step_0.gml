@@ -1,9 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-playerFalling.y++
+//ghost player object and throw this dummy down!
+playerFalling.y++;
+playerFalling.y++;
 
-
-if (playerFalling.y > 568)
+if (playerFalling.y > room_height)
 	{
 		instance_destroy(playerFalling);
 		player.x = 353;

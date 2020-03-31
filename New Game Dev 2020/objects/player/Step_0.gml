@@ -1,13 +1,12 @@
 //keyboard input
-hInput = keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput = keyboard_check(vk_down) - keyboard_check(vk_up);
+hInput				= keyboard_check(vk_right) - keyboard_check(vk_left);
+vInput				= keyboard_check(vk_down) - keyboard_check(vk_up);
 input_left			= keyboard_check(vk_left);
 input_right			= keyboard_check(vk_right);
 input_up			= keyboard_check(vk_up);
 input_down			= keyboard_check(vk_down);
 input_jump			= keyboard_check(vk_space);
-input_jump_hold		= keyboard_check_pressed(vk_space);
-shoot = keyboard_check(vk_control);
+shoot				= keyboard_check(vk_control);
 
 if player.z > 0
 {
@@ -25,38 +24,27 @@ if(z >0)
 		{
 			z = 0;
 			if(input_jump)
-			
 				{	
 					//player.isJumping = true;
 					moveZ= jSpd;
 					z = moveZ;
-				}
-				
-				else moveZ = 0;
-				
+				}else moveZ = 0;
 		}
 		
 		//player.isJumping = false;
-	  ///movement code with jump
+		///movement code with jump
 		moveX = input_right - input_left;
 		moveY = input_down -  input_up;
 		x += moveX;
 		y += moveY - moveZ;	
-//read input
+		
+		//read input
 if(hInput != 0 or vInput != 0)
 	{
 		//find direction and find vector to correct point 
 		dir = point_direction(0,0,hInput, vInput);
 		moveX = lengthdir_x(spd, dir);
 		moveY = lengthdir_y(spd, dir);
-		
-
- 
-
-		//actually move
-		//x += hInput * spd;
-		//y += vInput * spd;
-		
 		
 		//set sprite in 8 directions
 		switch(dir)
@@ -69,21 +57,14 @@ if(hInput != 0 or vInput != 0)
 				case 225: sprite_index = playerDownLeft; break;
 				case 270: sprite_index = playerDown; break;
 				case 315: sprite_index = playerDownRight; break;
-				
 			}
-		
-		
-	}
-	
-		
-	
-	else 
+	}else 
 	{
 		// stops constant walking
 		image_index =0;
 	}
 	
-/*
+	/*
 	////  Shoot toward Mouse with independant movement
 	
 	///faces the mouse
@@ -98,27 +79,23 @@ if(hInput != 0 or vInput != 0)
     newbullet.direction=fireDirection
     newbullet.image_angle=fireDirection
     newbullet.speed=7 //adjust 7 accordingly
-   }
+	}
 
-*/
-
-
+	*/
 
 	///Shoot native direction with no mouse
 
 	///faces the mouse
-	fireDirection=point_direction(0,0,hInput, vInput)
-	//image_angle=fireDirection
+	//fireDirection=point_direction(0,0,hInput, vInput);
 	
-	
+
 	/// Checks mouse button then creates a bullet on the instances layer
-	
-	if shoot 
-	//if mouse_check_button_pressed(mb_left)
+if shoot 
 	{
+		
     var newbullet=instance_create_layer(x,y-9,"Instances",playerBullet);
-    newbullet.direction=fireDirection
-    newbullet.image_angle=fireDirection
+    newbullet.direction=dir		
+    newbullet.image_angle=dir	
     newbullet.speed=7 //adjust 7 accordingly
    }
 	
