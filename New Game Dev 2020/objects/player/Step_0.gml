@@ -6,14 +6,18 @@ input_right			= keyboard_check(vk_right);
 input_up			= keyboard_check(vk_up);
 input_down			= keyboard_check(vk_down);
 input_jump			= keyboard_check(vk_space);
+//input_jump_hold		= keyboard_check_pressed(vk_space);
 shoot				= keyboard_check(vk_control);
 
+// sanity check on if player is jumping or not, for jumping over objects and checking to see if 
+// a blank tile is under the player on landing.  
 if player.z > 0
 {
 	isJumping = true;
 }else{
 	isJumping = false;
 }
+
 //JUMP
 if(z >0) 
 	{
@@ -23,15 +27,15 @@ if(z >0)
 	}else 
 		{
 			z = 0;
-			if(input_jump)
+			if(input_jump) //this is where the jump input is read <=======
 				{	
-					//player.isJumping = true;
 					moveZ= jSpd;
 					z = moveZ;
-				}else moveZ = 0;
+				}else moveZ = 0; 
+			
 		}
 		
-		//player.isJumping = false;
+	
 		///movement code with jump
 		moveX = input_right - input_left;
 		moveY = input_down -  input_up;
