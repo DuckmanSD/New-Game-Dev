@@ -30,7 +30,7 @@ for (var tX = 0; tX < MAP_W; tX++)
 		//}
 		
 		/// Draws the map
-		if (tileIndexScenery != 0) draw_sprite(scenery, tileIndexScenery-1, sceneX, sceneY + tileZScenery);
+		if (tileIndexScenery != 0) draw_sprite(scenery, tileIndexScenery-1, sceneX, sceneY + 0);
 		
 	}
 }
