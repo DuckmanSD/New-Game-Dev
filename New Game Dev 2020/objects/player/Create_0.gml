@@ -1,6 +1,11 @@
 // Setting up player constants for now.  Spd is player speed 
+/// Space Walk grav =.1, spd=20, jSpd =3
+/// Action Platformer grav =.4, jSpd = 4, 
+
+
+
 event_inherited();
-grav = .35;							//.4 is solid vg gravity .1 is space walk
+grav = .4;							
 spd=20;								//spd def 1		
 image_speed=.4;						//def .4
 player.isJumping = false;			// sets the inital state for the jump system

@@ -1,3 +1,6 @@
+	
+
+
 /// build map	
 
 /// hide layer in code so you can work with it
@@ -22,6 +25,8 @@ for (var tX = 0; tX < MAP_W; tX++)
 		{
 			var tileMapData = tilemap_get(tileMap, tX, tY);
 			//Format: [Sprite, Z]
+			
+			
 			var thisTile = [-1,0];
 			thisTile[TILE.SPRITE] = tileMapData;
 			thisTile[TILE.Z] = 0;
