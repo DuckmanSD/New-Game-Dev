@@ -39,8 +39,8 @@ if(z >0)
 		///movement code with jump
 		moveX = input_right - input_left;
 		moveY = input_down -  input_up;
-		x += moveX;
-		y += moveY - moveZ;	
+		x += moveX*2;
+		y += (moveY*2) - moveZ;	
 		
 		//read input
 if(hInput != 0 or vInput != 0)

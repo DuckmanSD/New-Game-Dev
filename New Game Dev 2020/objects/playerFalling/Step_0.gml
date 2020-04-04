@@ -1,12 +1,13 @@
 //ghost player object and throw this dummy down!
-playerFalling.y=y+10;
+playerFalling.y=y+20;
 
 
 if (playerFalling.y > 1000)
 	{
 		instance_destroy(playerFalling);
-		player.x = 353;
-		player.y = 187;
+		player.playerisfalling = false;
+		player.x = stage1.startX;
+		player.y = stage1.startY;
 		
 		player.depth = -10;
 		
