@@ -1,5 +1,5 @@
 //ghost player object and throw this dummy down!
-playerFalling.y=y+20;
+playerFalling.y=y+10;
 
 
 if (playerFalling.y > 1000)

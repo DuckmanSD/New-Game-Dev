@@ -2,8 +2,8 @@
 #macro MAP_H 128
 #macro TILE_W 16
 #macro TILE_H 8
-#macro SCREEN_W 512
-#macro SCREEN_H 384
+#macro SCREEN_W 640
+#macro SCREEN_H 360
 
 enum TILE
 {
