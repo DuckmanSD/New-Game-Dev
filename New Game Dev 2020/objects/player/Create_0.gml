@@ -9,3 +9,4 @@ moveX = 0;
 moveY = 0;
 jSpd = 3;							// jump speed, velocity when starting to jump
 z=0;
+gamepad_set_axis_deadzone(0,.3);

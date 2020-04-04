@@ -1,14 +1,14 @@
 //keyboard input
-hInput				= keyboard_check(vk_right) - keyboard_check(vk_left);
-vInput				= keyboard_check(vk_down) - keyboard_check(vk_up);
-input_left			= keyboard_check(vk_left);
-input_right			= keyboard_check(vk_right);
-input_up			= keyboard_check(vk_up);
-input_down			= keyboard_check(vk_down);
-input_jump			= keyboard_check(vk_space);
-//input_jump_hold		= keyboard_check_pressed(vk_space);
-shoot				= keyboard_check(vk_control);
 
+input_left			= keyboard_check(vk_left)	|| (gamepad_axis_value(0,gp_axislh) < 0);
+input_right			= keyboard_check(vk_right)	|| (gamepad_axis_value(0,gp_axislh) > 0);
+input_up			= keyboard_check(vk_up)		|| (gamepad_axis_value(0,gp_axislv) < 0);
+input_down			= keyboard_check(vk_down)	|| (gamepad_axis_value(0,gp_axislv) > 0);
+input_jump			= keyboard_check(vk_space)	|| (gamepad_button_check_pressed(0,gp_face1));
+shoot				= keyboard_check(vk_control)|| (gamepad_button_check_pressed(0,gp_face3));
+
+hInput				= input_right - input_left;
+vInput				= input_down - input_up;
 // sanity check on if player is jumping or not, for jumping over objects and checking to see if 
 // a blank tile is under the player on landing.  
 if player.z > 0

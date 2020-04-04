@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2fe0496d-681d-46a5-bab0-7333cdac7b13",
+            "Value": {
+                "id": "a6f58416-db0f-4392-a12b-b7f240d12fcb",
+                "resourcePath": "scripts\\intercept_course\\intercept_course.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "35f647d6-dbc4-4d5d-a560-29c62c1b1692",
             "Value": {
                 "id": "88d88dda-a920-438d-8508-3d32f8a2481a",
@@ -718,6 +726,7 @@
         "bb8bdee9-9590-489c-a969-0cbae320ade5",
         "fc397449-bc8d-4333-b64a-abcf9d395408",
         "b86cfce7-e33c-416d-93f7-134bcd2f5009",
+        "2fe0496d-681d-46a5-bab0-7333cdac7b13",
         "0497b32e-2ed5-4519-bc23-2ca9f7e90fdc",
         "58923b20-6ce0-49df-8159-4a2ec9744573",
         "73a59112-2469-41aa-a5bd-ad43178d17fb",
