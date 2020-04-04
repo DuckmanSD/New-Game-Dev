@@ -1,9 +1,9 @@
 //keyboard input
 
-input_left			= keyboard_check(vk_left)	|| (gamepad_axis_value(0,gp_axislh) < 0);
-input_right			= keyboard_check(vk_right)	|| (gamepad_axis_value(0,gp_axislh) > 0);
-input_up			= keyboard_check(vk_up)		|| (gamepad_axis_value(0,gp_axislv) < 0);
-input_down			= keyboard_check(vk_down)	|| (gamepad_axis_value(0,gp_axislv) > 0);
+input_left			= keyboard_check(vk_left)	|| (gamepad_axis_value(0,gp_axislh) < 0) || (gamepad_button_check(0,gp_padl));
+input_right			= keyboard_check(vk_right)	|| (gamepad_axis_value(0,gp_axislh) > 0) || (gamepad_button_check(0,gp_padr));
+input_up			= keyboard_check(vk_up)		|| (gamepad_axis_value(0,gp_axislv) < 0) || (gamepad_button_check(0,gp_padu)) ;
+input_down			= keyboard_check(vk_down)	|| (gamepad_axis_value(0,gp_axislv) > 0) || (gamepad_button_check(0,gp_padd));
 input_jump			= keyboard_check(vk_space)	|| (gamepad_button_check_pressed(0,gp_face1));
 shoot				= keyboard_check(vk_control)|| (gamepad_button_check_pressed(0,gp_face3));
 

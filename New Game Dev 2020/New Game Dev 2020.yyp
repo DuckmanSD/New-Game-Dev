@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "27f6afa8-e40e-4454-84f9-880fbd3ac3e3",
-            "Value": {
-                "id": "2094ea2a-1cea-4912-baea-fec21862c120",
-                "resourcePath": "objects\\oRenderScenery\\oRenderScenery.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2c42e9a8-bf19-4c0a-955d-0520d020ef0f",
             "Value": {
                 "id": "aa6b8f5d-d61d-4e2d-819d-9662f764a389",
@@ -383,6 +375,14 @@
             }
         },
         {
+            "Key": "b5abb917-fc01-4187-ae8d-f382984b9792",
+            "Value": {
+                "id": "bb1e85ed-02bd-4f6b-a3ed-5e107b7bbc55",
+                "resourcePath": "views\\b5abb917-fc01-4187-ae8d-f382984b9792.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b692918b-a2eb-41d7-ad06-08871dc1c32f",
             "Value": {
                 "id": "5bb85fba-72ce-473a-b7f5-ba64f6264e02",
@@ -452,6 +452,14 @@
                 "id": "bf8f3c1d-69cb-47f0-8354-312738c1ed9f",
                 "resourcePath": "sprites\\playerUpRight\\playerUpRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6ad81bb-96e0-496e-bf94-842d293820b6",
+            "Value": {
+                "id": "a38e1563-8806-477a-b22c-71689f2e2263",
+                "resourcePath": "views\\c6ad81bb-96e0-496e-bf94-842d293820b6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

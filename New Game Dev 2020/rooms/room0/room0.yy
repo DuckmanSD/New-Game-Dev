@@ -229,7 +229,7 @@
             "tilesetId": "57d0cb12-55d9-466d-b6ef-9aa640ce0a82",
             "userdefined_depth": false,
             "visible": true,
-            "x": 0,
+            "x": 1,
             "y": 0
         },
         {
