@@ -5,7 +5,7 @@
 
 
 event_inherited();
-grav = .4;							
+grav = .1;							
 spd=20;								//spd def 1		
 image_speed=.4;						//def .4
 player.isJumping = false;			// sets the inital state for the jump system

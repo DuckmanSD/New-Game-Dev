@@ -1,7 +1,7 @@
 /// Debug viewer!!!!  
 
 draw_text(x-5, y-35, string(player.z));				//checks the player z
-//draw_text(x-5, y-55, string(playerisfalling));    //checks is falling variable
+draw_text(x-5, y-55, string(player.isJumping));    //checks is falling variable
 
 
 
